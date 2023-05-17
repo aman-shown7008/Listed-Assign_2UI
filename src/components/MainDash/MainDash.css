@@ -1,0 +1,27 @@
+.MainDash{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.MainDash h1{
+  margin-bottom: 3.5rem;
+}
+
+.MainDash .mainTop{
+  display: flex;
+  justify-content: space-between;
+}
+
+.mainTop input{
+  border: none;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  height: 30px;
+  width: 180px;
+  margin-top: 2rem;
+  padding: 2px 7px;
+}
+
+.mainTop input:focus{
+  outline: none;
+}
